@@ -35,7 +35,9 @@ export default async function DoctorDashboard() {
                             await sb.auth.signOut()
                             redirect('/')
                         }}>
-                            <button className="text-sm text-red-600 hover:text-red-800">Sign Out</button>
+                            <button className="rounded-md bg-red-600 px-4 py-2 text-sm font-bold text-white transition hover:bg-red-700 shadow-sm">
+                                Sign Out
+                            </button>
                         </form>
                     </div>
                 </div>
